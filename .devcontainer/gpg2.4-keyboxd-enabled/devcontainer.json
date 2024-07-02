@@ -1,0 +1,4 @@
+{
+	"dockerFile": "Dockerfile",
+	"postAttachCommand": "gpg --list-keys ; gpg --list-secret-keys ; echo test | gpg --clear-sign"
+}

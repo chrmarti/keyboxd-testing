@@ -1,0 +1,4 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+	"postAttachCommand": "gpg --list-keys ; gpg --list-secret-keys ; echo test | gpg --clear-sign"
+}
